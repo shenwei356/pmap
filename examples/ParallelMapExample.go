@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"sort"
 	"sync"
-	
+
 	"github.com/shenwei356/pmap"
 )
 
@@ -25,7 +25,7 @@ func main() {
 	})
 
 	// number of elements in map
-	var n int = 1 << 9
+	var n int = 1 << 3
 
 	// create N goroutines which call Update function concurrently
 	var wg sync.WaitGroup
