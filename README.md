@@ -13,7 +13,7 @@ This package is "go-gettable", just:
 
     go get github.com/shenwei356/pmap
 
-Example
+Usage
 -------
     
 	// constructor
