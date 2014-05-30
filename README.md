@@ -11,7 +11,7 @@ Install
 -------
 This package is "go-gettable", just:
 
-    go get github.com/shenwei356/util/ParallelMap
+    go get github.com/shenwei356/pmap
 
 Example
 -------
@@ -74,6 +74,6 @@ Example
 Documentation
 -------------
 
-[See documentation on gowalker for more detail](http://gowalker.org/github.com/shenwei356/util/ParallelMap).
+[See documentation on gowalker for more detail](http://gowalker.org/github.com/shenwei356/pmap).
 
-[MIT License](https://github.com/shenwei356/util/blob/master/ParallelMap/LICENSE)
+[MIT License](https://github.com/shenwei356/pmap/blob/master/LICENSE)
