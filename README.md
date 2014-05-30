@@ -34,14 +34,21 @@ Usage
 		return oldValue.(int) + newValue.(int)
 	})
 
+    // update by 1
 	m.Update("age", 1)
+	
 	if age, ok := m.Get("age"); ok {
 		fmt.Printf("age: %d\n", age)
 	}
 
 	// Stop the map backend
 	m.Stop()
- 
+
+Output
+
+    age: 26
+    age: 27
+
 
 Documentation
 -------------
